@@ -27,6 +27,6 @@ puts "Stores that sell womens apparel with less than $1,000,000 in annual revenu
 
 @womens_stores.each do |store|
   # if store.annual_revenue < 1000000
-    puts "Name: #{store.name} and annual revenure: #{store.annual_revenue}"
+    puts "Name: #{store.name} and annual revenue: #{store.annual_revenue}"
   # end
 end
